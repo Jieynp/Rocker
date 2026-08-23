@@ -1,0 +1,8 @@
+services:
+  repocket:
+    container_name: rocker
+    image: repocket/repocket:latest
+    restart: always
+    environment:
+      RP_EMAIL: ${RP_EMAIL}
+      RP_API_KEY: ${RP_API_KEY}
