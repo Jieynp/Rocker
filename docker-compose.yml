@@ -2,7 +2,7 @@ services:
   repocket:
     container_name: rocker
     build:
-      dockerfile: dockerfile
+      dockerfile: Dockerfile
     restart: always
     environment:
       RP_EMAIL: ${RP_EMAIL}
